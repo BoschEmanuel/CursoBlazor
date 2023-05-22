@@ -1,0 +1,31 @@
+﻿@inherits webassembly.Componentes.componentescs.PerfilPersonalBase;
+@*@using global::Shared.DTO;*@
+
+<h3>PerfilPersonal</h3>
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            Desarrollaro
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+            <b> Telefono:</b> @profle.Telefono
+    </div>
+        <div class="col-sm-3" style="border: 1px solid @BorderColour">
+              <b> Email:</b>  @profle.Email
+    </div>
+        <div class="col-sm-3" style="background-color:  @BackgroundColor">
+              <b> Github:</b>  @profle.Github 
+    </div>
+        <div class="col-sm-3">
+              <b> Website:</b> <a href=@profle.website>pepito</a> 
+    </div>
+</div>
+
+
+
+@code {
+
+}

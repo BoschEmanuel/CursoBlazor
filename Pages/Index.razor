@@ -1,0 +1,18 @@
+﻿@page "/"
+
+@using global::Shared.DTO;
+@using webassembly.Componentes
+
+
+<PerfilPersonal  profle="perfil"></PerfilPersonal>
+<WorkExp></WorkExp>
+
+@code{
+    PersonalProfileDto perfil = new PersonalProfileDto()
+        {
+            Email = "ppeito@art.com",
+            Telefono = "151531",
+            Github = "giuihjyb",
+            website = "Albertito.com"
+        };
+}
